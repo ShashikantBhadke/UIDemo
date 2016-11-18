@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XIBViewController">
+            <connections>
+                <outlet property="btn" destination="zSL-hr-H9h" id="1PX-n8-pU0"/>
+                <outlet property="lbl1" destination="wMX-jW-79O" id="FVI-zL-Xtq"/>
+                <outlet property="piker1" destination="cXy-Ve-1MY" id="Wek-Xq-ARN"/>
+                <outlet property="slider" destination="9g9-nv-keC" id="2he-oQ-NE2"/>
+                <outlet property="table" destination="oPX-n6-zF8" id="Yjg-TJ-lem"/>
+                <outlet property="tf" destination="Zsi-i5-dnA" id="YDp-yP-jfy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMX-jW-79O">
+                    <rect key="frame" x="8" y="18" width="199" height="32"/>
+                    <color key="backgroundColor" red="0.41298193516655113" green="0.43804587844536202" blue="0.61354166666666665" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.98691907051282046" green="0.98691907051282046" blue="0.98691907051282046" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSL-hr-H9h">
+                    <rect key="frame" x="117" y="56" width="71" height="34"/>
+                    <color key="backgroundColor" red="0.32611978965627653" green="0.27409009166643261" blue="0.61354166666666665" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.91041666666666665" green="0.91041666666666665" blue="0.91041666666666665" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnclicked:" destination="-1" eventType="touchUpInside" id="jfm-GV-Jns"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zsi-i5-dnA">
+                    <rect key="frame" x="8" y="58" width="97" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="B80-K7-QQn"/>
+                    </connections>
+                </textField>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9g9-nv-keC">
+                    <rect key="frame" x="12" y="98" width="203" height="31"/>
+                    <connections>
+                        <action selector="sliderchange:" destination="-1" eventType="valueChanged" id="2IU-2t-Ssv"/>
+                    </connections>
+                </slider>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oPX-n6-zF8">
+                    <rect key="frame" x="8" y="143" width="142" height="126"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vhA-RF-cP1"/>
+                        <outlet property="delegate" destination="-1" id="yf4-N7-4t2"/>
+                    </connections>
+                </tableView>
+                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cXy-Ve-1MY">
+                    <rect key="frame" x="163" y="143" width="141" height="126"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="3N0-wq-mxt"/>
+                        <outlet property="delegate" destination="-1" id="iew-io-Zre"/>
+                    </connections>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" red="0.26884187540266835" green="0.27234690596424616" blue="0.41426282051282048" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
