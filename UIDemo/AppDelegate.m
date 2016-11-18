@@ -56,6 +56,7 @@
 //    UINavigationController *navigation =[[UINavigationController alloc]initWithRootViewController:lvc];
 //        navigation.navigationBar.backgroundColor=[UIColor orangeColor];
 //    self.window.rootViewController=navigation;
+
     
      TimerViewController *tvc=[[TimerViewController alloc]init];
         self.window.rootViewController=tvc;

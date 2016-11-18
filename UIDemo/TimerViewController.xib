@@ -19,7 +19,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbN-vO-fNs">
-                    <rect key="frame" x="43" y="215" width="46" height="30"/>
+                    <rect key="frame" x="45" y="200" width="46" height="30"/>
                     <color key="backgroundColor" red="0.54556943240832301" green="0.51914144060500966" blue="0.66967147435897434" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Start">
                         <color key="titleColor" red="0.98155582743775038" green="0.9291104859986381" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -28,8 +28,14 @@
                         <action selector="btnclicked:" destination="-1" eventType="touchUpInside" id="lV7-qG-BGk"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-s0-IQX">
+                    <rect key="frame" x="109" y="287" width="102" height="80"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvS-Uz-HbO">
-                    <rect key="frame" x="224" y="215" width="46" height="30"/>
+                    <rect key="frame" x="224" y="200" width="46" height="30"/>
                     <color key="backgroundColor" red="0.65433405555893376" green="0.61918685347891933" blue="0.68752003205128198" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" title="Stop">
                         <color key="titleColor" red="0.95173089518085063" green="0.90060918171579085" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,12 +44,6 @@
                         <action selector="btnclicked:" destination="-1" eventType="touchUpInside" id="iQI-4i-RDC"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-s0-IQX">
-                    <rect key="frame" x="109" y="287" width="102" height="80"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

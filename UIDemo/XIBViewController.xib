@@ -28,16 +28,6 @@
                     <color key="textColor" red="0.98691907051282046" green="0.98691907051282046" blue="0.98691907051282046" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSL-hr-H9h">
-                    <rect key="frame" x="117" y="56" width="71" height="34"/>
-                    <color key="backgroundColor" red="0.32611978965627653" green="0.27409009166643261" blue="0.61354166666666665" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Button">
-                        <color key="titleColor" red="0.91041666666666665" green="0.91041666666666665" blue="0.91041666666666665" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="btnclicked:" destination="-1" eventType="touchUpInside" id="jfm-GV-Jns"/>
-                    </connections>
-                </button>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zsi-i5-dnA">
                     <rect key="frame" x="8" y="58" width="97" height="30"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -67,6 +57,16 @@
                         <outlet property="delegate" destination="-1" id="iew-io-Zre"/>
                     </connections>
                 </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSL-hr-H9h">
+                    <rect key="frame" x="125" y="54" width="71" height="34"/>
+                    <color key="backgroundColor" red="0.32611978965627653" green="0.27409009166643261" blue="0.61354166666666665" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.91041666666666665" green="0.91041666666666665" blue="0.91041666666666665" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnclicked:" destination="-1" eventType="touchUpInside" id="jfm-GV-Jns"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.26884187540266835" green="0.27234690596424616" blue="0.41426282051282048" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

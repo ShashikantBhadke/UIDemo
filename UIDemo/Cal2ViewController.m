@@ -42,7 +42,7 @@
 -(void)btnclick
 {
     //******* Alert ***********
-//    UIAlertView *alert1= [[UIAlertView alloc]initWithTitle:@"Alert" message:nil delegate:self cancelButtonTitle:@"Cancle" otherButtonTitles:@"Ok", nil];
+// /   UIAlertView *alert1= [[UIAlertView alloc]initWithTitle:@"Alert" message:nil delegate:self cancelButtonTitle:@"Cancle" otherButtonTitles:@"Ok", nil];
     UIAlertView *alert1=[[UIAlertView alloc]init];
     alert1.delegate=self;
     [alert1 setTitle:@"Enter value"];

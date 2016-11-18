@@ -57,7 +57,7 @@
 //    _usernametf.keyboardType=UIKeyboardTypeEmailAddress;
 //    _usernametf.keyboardType=UIKeyboardTypeDecimalPad;
 //    _usernametf.keyboardType=UIKeyboardTypeNamePhonePad;
-//    _usernametf.keyboardType=UIKeyboardTypeNumbersAndPunctuation;
+//  /  _usernametf.keyboardType=UIKeyboardTypeNumbersAndPunctuation;
 //    _usernametf.keyboardType=UIKeyboardTypeTwitter;
     _usernametf.returnKeyType=UIReturnKeyNext;
 //    _usernametf.returnKeyType=UIReturnKeyRoute;

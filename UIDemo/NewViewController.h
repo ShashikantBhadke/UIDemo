@@ -3,7 +3,7 @@
 //  UIDemo
 //
 //  Created by Student-002 on 27/09/16.
-//  Copyright © 2016 student 002. All rights reserved.
+// / Copyright © 2016 student 002. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
